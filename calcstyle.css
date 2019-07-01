@@ -1,0 +1,97 @@
+body {
+    background-color: black;
+    
+}
+
+@viewport {
+    width: device-width ;
+    zoom: 0.5;
+  } 
+
+.wrapper {
+    background: url("http://artiofloors.com/image/corgi.jpg");
+    background-color: black;
+    height: 600px;
+    width: 800px;
+    margin: 20px auto;
+    padding-top: 20px;
+}
+
+.calculator {
+    background-color: white;
+    height: 400px;
+    width: 300px;
+    margin: 20px auto;
+    
+}
+
+.output {
+    height: 50px;
+    width: 298px;
+    font-size: 50px;
+    text-align: right;
+    color: white;
+    background-color: black;
+    border-style: none;
+
+
+}
+
+.board {
+    padding: 10px;
+    
+}
+
+.operator {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    float: right;
+    font-size: 16px;
+    font-weight: bold;
+    border-style: none;
+    background-color: inherit; 
+    margin: 10px;
+    
+}
+
+.number {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    float: left;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: inherit;
+    border-style: none;
+    margin: 10px;
+}
+
+.decimal {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    float: left;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: inherit;
+    border-style: none;
+    margin: 10px;
+}
+
+.clear {
+    width: 275px;
+    
+}
+
+#equal {
+    width: 275px;
+    border: solid 1px;
+    background-color: rgb(207, 207, 207);
+    border-color: rgb(177, 173, 173);
+    height: 20px;
+    border-radius: 1%;
+    margin-left: 50px;
+
+    
+}
